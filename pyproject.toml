@@ -1,0 +1,13 @@
+[build-system]
+requires = ["wheel", "setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rgs3dHelper"
+version = "0.0.1"
+dependencies = [
+    "pyvista>=0.34.2,
+]
+
+[project.scripts]
+lt = "rgs3delper.vtk_average:average"
